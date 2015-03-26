@@ -7,7 +7,7 @@ public class test extends JFrame{
 	 public static final long serialVersionUID=138938122;
 
 	 public test(){
-		 super("Text Demo"); //同老豆藍本
+		 super("Text Demo"); //同老豆藍本ABC
 		 setLayout(null); //choose which kind of content pane 1 line only
 		 
 		 JLabel lblNewLabel = new JLabel("New label");
