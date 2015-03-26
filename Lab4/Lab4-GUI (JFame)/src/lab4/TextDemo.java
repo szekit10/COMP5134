@@ -15,31 +15,9 @@ import java.awt.event.ActionEvent;
  Vector<JLabel> L=new  Vector<JLabel>();
  
   public TextDemo(){
-        super("Text Demo"); //¦P¦Ñ¨§ÂÅ¥»
-        
-        getContentPane().setLayout(new BorderLayout());
-        
-
-        JPanel panel=new JPanel(new GridLayout(3, 3));
-        panel.setPreferredSize(new Dimension(40,20));
-        panel.add(new JLabel("Flovar"));
-        panel.add(new JLabel("Decorator"));
-        panel.add(new JLabel("Decorator"));
+        super("Text Demo"); //Â¦PÂ¦Ã‘Â¨Â§Ã‚Ã…Â¥Â»
         
         
-        panel.add(new JLabel("Flovar"));
-        panel.add(new JLabel("Decorator"));
-        panel.add(new JLabel("Decorator"));
-        
-        
-        
-        
-        
-        
-        
-        panel.add(new JLabel("Flovar"));
-        panel.add(new JLabel("Decorator"));
-        panel.add(new JLabel("Decorator"));
         
 
         
@@ -50,6 +28,6 @@ import java.awt.event.ActionEvent;
         }
 
  public static void main(String[] args) {
-        new TextDemo(); //²£¥Í 
+        new TextDemo(); //Â²Â£Â¥Ã 
         }
  }
